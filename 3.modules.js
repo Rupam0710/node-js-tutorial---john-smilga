@@ -5,8 +5,9 @@ const names = require("./4.names");
 const sayHi = require("./5.utils");
 
 const data = require("./6.Alternative_flavor");
-console.log(data);
 
-sayHi("Susan");
-sayHi(names.rupam);
-sayHi(names.raj);
+require("./7.mind_grenade");
+
+// sayHi("Susan");
+// sayHi(names.rupam);
+// sayHi(names.raj);
